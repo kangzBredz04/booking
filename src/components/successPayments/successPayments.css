@@ -1,0 +1,11 @@
+.success-payments {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.payment-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

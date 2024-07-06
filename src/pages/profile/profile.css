@@ -1,0 +1,97 @@
+.profile {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-section label {
+  width: 150px;
+  font-weight: bold;
+}
+
+.profile-section input,
+.profile-section p {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-section p {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.buttonProfile {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonProfile:hover {
+  background-color: #0056b3;
+}
+
+.history-container {
+  margin-top: 40px;
+}
+
+.history-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.history-card h3 {
+  margin: 0 0 10px;
+}
+
+.history-card p {
+  margin: 5px 0;
+}
+
+.reservation-history {
+  margin-top: 20px;
+}
+
+.reservation-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-card h3 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+}
+
+.reservation-card p {
+  margin: 5px 0;
+  color: #555;
+}

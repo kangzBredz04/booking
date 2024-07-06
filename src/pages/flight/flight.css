@@ -1,0 +1,123 @@
+.flightContainer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flightContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.flightGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.flightCard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.flightCard:hover {
+  transform: scale(1.05);
+}
+
+.flightImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.flightCard h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.flightCard p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.bookButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bookButton:hover {
+  background-color: #0056b3;
+}
+
+.paymentPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.paymentContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.paymentContent h2 {
+  margin-bottom: 20px;
+}
+
+.paymentContent label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.paymentContent input,
+.paymentContent select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.paymentContent button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.paymentContent button:hover {
+  background-color: #0056b3;
+}

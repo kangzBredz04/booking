@@ -1,0 +1,78 @@
+.payment {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-info,
+.payment-pin {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-info input,
+.payment-info select,
+.payment-pin input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-info button,
+.payment-pin button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-info button:hover,
+.payment-pin button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.hotel-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.hotel-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-card.selected {
+  background-color: #f0f0f0;
+}
+
+.hotel-card h4 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.hotel-card p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.hotel-card p:last-child {
+  margin-top: 8px;
+}
